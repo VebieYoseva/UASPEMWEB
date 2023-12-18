@@ -1,0 +1,159 @@
+html{
+    justify-content: center;
+}
+
+.atas{ 
+    background-color: rgb(254, 225, 230);
+    padding: 10px;
+    text-align: center;
+    display: block;
+    flex-direction: row;
+    list-style: none;
+}
+
+div.utama{
+padding: 20px
+}
+
+.panel{
+    line-height: 100%;
+}
+.panel h1{
+    margin-top: 5px;
+    font-size: 60px;
+    
+}
+
+.panel p{
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+
+img{
+    margin-right:20px ;
+    padding: 10px;
+    height: auto;
+}
+
+body{
+    background-color: #f1d8f7;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px;
+    background-color:rgb(193, 22, 139);
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+div.Formulir{
+    padding: 20px;
+    background-color: rgb(232, 200, 232);
+}
+
+.container{
+    width: 90%;
+    background: rgb(213, 56, 164);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:0 0 10px rgb(228, 244, 135);
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.container header{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container .form{
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.form .input-box{
+    margin-top: 20px;
+}
+
+.input-box label{
+    color: rgb(254, 225, 230);
+    font-weight: bold;
+    justify-content: right;
+}
+
+.form .input-box input{
+    height: 30px;
+    width: 90%;
+    outline: none;
+    color: rgb(74, 63, 63);
+    margin-top: 8px;
+    border: 1px solid rgb(69, 69, 70);
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.form .jk-box{
+    margin-top: 20px;
+}
+
+.jk-box label{
+    color: rgb(254, 225, 230);
+    font-weight: bold;
+
+}
+
+.form .jk-box input{
+    margin-top: 10px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text", "email", "radio"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+textarea{ 
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+
+input[type="submit"]:hover{
+    margin-top: 20px;
+    background-color: rgb(247, 102, 162);
+    color: yellowgreen;
+    padding: 10px 14px;
+}
+
+.footer{
+    display: flex;
+    padding: 5px;
+    background-color: rgb(193, 22, 139);
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+}
