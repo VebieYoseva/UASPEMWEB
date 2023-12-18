@@ -13,9 +13,13 @@ password :11bie11
 Program ini terdapat formulir yang digunakan untuk pendaftaran kelas dalam suatu universitas. 
 Terdapat form yang terdiri dari Nama, NIM, Prodi, Email, Jenis Kelamin, dan Alamat. 
 Pada formulir digunakan metode POST 
+
 Untuk membuat sebuah basis data dengan SQL dapat menggunakan perintah :
+
 CREATE DATABASE <nama database>;
+
 dan untuk membuat tabel dapat menggunakan perintah : 
+
 CREATE TABLE <namatable> (kolom1, kolom2) VALUE (value1, value2);
 
 1. Langkah untuk menghost aplikasi web (000webhost) :
